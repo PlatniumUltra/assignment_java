@@ -23,7 +23,7 @@ public class BankAccount {
         System.out.println("Name: "+ this.name + "\n" +
                 "Address: "+ this.address + "\n" +
                 "Account type: "+ this.type + "\n" +
-                "Account balance: "+ this.balance + "\n";);
+                "Account balance: "+ this.balance + "\n");
     }
 
     public void deposit(int deposit){
@@ -39,12 +39,12 @@ public class BankAccount {
     }
 
     public void changeaddress(String address){
-        this.address = address
+        this.address = address;
         System.out.println("Address: "+this.address);
     }
 
     public static void main(String arg[]){
-        Scanner sc = new Scanner(System.in);
+
 
 
     }
